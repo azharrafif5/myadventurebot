@@ -50,7 +50,9 @@ class Player:
         self.magic += 2
         print(f"\n🎉 LEVEL UP! You are now level {self.level}!")
         print(f"   Max Health: +20 (now {self.max_health})")
+        print(f"   Max Mana: +10 (now {self.max_mana})")
         print(f"   Strength: +2 (now {self.strength})")
+        print(f"   Magic: +2 (now {self.magic})")
         
     def add_item(self, item):
         """Add an item to inventory."""
